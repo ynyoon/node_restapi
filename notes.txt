@@ -14,3 +14,7 @@ whitelist IP 등록, (0.0.0.0 = 모든 IP)
 계정 생성
 Connect Application에서 url 복사
 mongodb+srv://root:<password>@nodeapi-ab9p7.mongodb.net/test?retryWrites=true&w=majority
+
+npm install express mongoose
+
+npm install dotenv
