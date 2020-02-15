@@ -1,3 +1,16 @@
 https://www.youtube.com/watch?v=elmqPlrFuIw&list=PLHGvDasahwZNIJ0aZQIhrf1Tg7Djqk7VQ&index=2
 npm init
 npm install express : 서버 핸들링 dependency
+
+postman 설치 후 데이터 Send
+
+mongodb
+https://cloud.mongodb.com/
+try free - 가입 후 - create cluster
+AWS, google, Azure중 선택 - AWS
+cluster name - nodeapi로 함.
+DB 생성 후 connect
+whitelist IP 등록, (0.0.0.0 = 모든 IP)
+계정 생성
+Connect Application에서 url 복사
+mongodb+srv://root:<password>@nodeapi-ab9p7.mongodb.net/test?retryWrites=true&w=majority
