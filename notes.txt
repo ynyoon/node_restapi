@@ -1,4 +1,5 @@
 https://www.youtube.com/watch?v=elmqPlrFuIw&list=PLHGvDasahwZNIJ0aZQIhrf1Tg7Djqk7VQ&index=2
+https://www.youtube.com/watch?v=hX9MldkfUxI&t=630s - 7강
 npm init
 npm install express : 서버 핸들링 dependency
 
@@ -14,7 +15,7 @@ whitelist IP 등록, (0.0.0.0 = 모든 IP)
 계정 생성
 Connect Application에서 url 복사
 mongodb+srv://root:<password>@nodeapi-ab9p7.mongodb.net/test?retryWrites=true&w=majority
-
-npm install express mongoose
+-------------------------------------------------
+npm install mongoose
 
 npm install dotenv
