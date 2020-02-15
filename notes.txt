@@ -1,0 +1,3 @@
+https://www.youtube.com/watch?v=elmqPlrFuIw&list=PLHGvDasahwZNIJ0aZQIhrf1Tg7Djqk7VQ&index=2
+npm init
+npm install express : 서버 핸들링 dependency
