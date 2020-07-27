@@ -39,6 +39,9 @@ whitelist IP 등록, (0.0.0.0 = 모든 IP)
 Connect Application에서 url 복사
 mongodb+srv://root:<password>@nodeapi-ab9p7.mongodb.net/test?retryWrites=true&w=majority
 -------------------------------------------------
+#mongo db connector
 npm install mongoose
 
+# variables.env 설정파일에서 설정값 읽기 위함.
+# 설정파일(*.env)의 값들은 암호화 or git에 올라가지 않도록 주의하는것이 좋음.
 npm install dotenv
