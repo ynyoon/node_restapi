@@ -2,6 +2,7 @@ const express = require('express');
 const bodyParser = require('body-parser');
 
 const server = express();
+const port = 3000;
 
 //express 서버에서 bodyParser.json()을 사용할 수 있도록 함.
 server.use(bodyParser.json());
@@ -46,6 +47,7 @@ server.post("/api/user", (req, res) => {
 });
 
 server.put("/api/user/:id", (req, res) => {
+    //console.log(req.param.id);
     let foundIndex = users.findIndex(u => u.id === req.params.id);
     if (foundIndex === -1) {
         res.status(404).json({ errorMessage: 'user was not found' });
@@ -60,11 +62,12 @@ server.delete("/api/user/:id", (req,res) =>{
     if(foundIndex === -1){
         res.status(404).json({errorMessage: "User was not found"});
     }else{
+        //splice Array에서 첫번째 인덱스부터, n개의 배열을 삭제, Array값으로 리턴됨.
         let foundUser = users.splice(foundIndex, 1);
         res.json(foundUser[0]);
     }
 });
 
-server.listen(3000, () => {
-    console.log("The server is running");
+server.listen(port, () => {
+    console.log("The server is running, listen port : " + port);
 });

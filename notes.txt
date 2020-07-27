@@ -1,9 +1,32 @@
 https://www.youtube.com/watch?v=elmqPlrFuIw&list=PLHGvDasahwZNIJ0aZQIhrf1Tg7Djqk7VQ&index=2
 https://www.youtube.com/watch?v=hX9MldkfUxI&t=630s - 7강
+
+vsc 설치
+https://code.visualstudio.com/download
+
+nodejs 설치
+https://nodejs.org/ko/download/
+
+> node --version
+v12.18.3
+> npm --version
+6.14.6
+
 npm init
 npm install express : 서버 핸들링 dependency
 
 postman 설치 후 데이터 Send
+postman 테스트
+예) PUT (수정)
+url : localhost:3000/api/user/aaa
+Header 정보
+Content-Type : application/json
+Body
+{
+        "name": "John",
+        "email": "John@gmail.com"
+}
+
 
 mongodb
 https://cloud.mongodb.com/
